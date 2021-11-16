@@ -61,3 +61,37 @@ line-height: 30px;
 color: #5E6282;
 
 }
+.find{
+position: absolute;
+width: 170px;
+height: 60px;
+left: 148px;
+top: 692px;
+
+/* yellow */
+
+background: #F1A501;
+box-shadow: 0px 20px 35px rgba(241, 165, 1, 0.15);
+border-radius: 10px;
+color: #FFFFFF;
+}
+.demo{
+position: absolute;
+width: 92px;
+height: 26px;
+left: 435px;
+top: 711px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 25px;
+/* identical to box height */
+
+
+/* text color */
+
+color: #686D77;
+}
+
