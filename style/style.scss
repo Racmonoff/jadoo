@@ -90,7 +90,7 @@ color: #5E6282;
 }
 .p-r {
     position: relative;
-    padding: 50px;
+    padding:0 40px;
    
 }
     .p-a {
@@ -122,9 +122,9 @@ color: #5E6282;
     position: absolute;
     background:rgba(0,0,0,.01);
     border:1px solid rgba(0,0,0,.06);
-    right: -20px;
+    right: -30px;
     z-index: -1;
-    bottom: -30px;
+    bottom: -80px;
     height: 232px;
     width: 80%;
     border-radius: 10px;
