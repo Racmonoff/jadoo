@@ -1,0 +1,97 @@
+.girl{
+width: 765px;
+height: 764px;
+margin-left: -105px;
+margin-top: 20px;
+}
+.tagline{
+position: absolute;
+width: 410px;
+height: 30px;
+left: 150px;
+top: 217px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 30px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #DF6951;
+}
+.heading{
+  position: absolute;
+width: 545px;
+height: 267px;
+left: 150px;
+top: 271px;
+
+font-family: Volkhov;
+font-style: normal;
+font-weight: bold;
+font-size: 84px;
+line-height: 89px;
+/* or 106% */
+
+letter-spacing: -0.04em;
+
+/* 1st */
+
+color: #181E4B;
+}
+.desc{
+  
+position: absolute;
+width: 477px;
+height: 90px;
+left: 148px;
+top: 568px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 30px;
+/* or 187% */
+
+
+color: #5E6282;
+
+}
+.find{
+position: absolute;
+width: 170px;
+height: 60px;
+left: 148px;
+top: 692px;
+
+/* yellow */
+
+background: #F1A501;
+box-shadow: 0px 20px 35px rgba(241, 165, 1, 0.15);
+border-radius: 10px;
+color: #FFFFFF;
+}
+.demo{
+position: absolute;
+width: 92px;
+height: 26px;
+left: 435px;
+top: 711px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 25px;
+/* identical to box height */
+
+
+/* text color */
+
+color: #686D77;
+}
+
