@@ -5,6 +5,10 @@
           box-sizing: border-box;
 }
 
+.container {
+  min-width: 360px !important;
+}
+
 .h11, .easyFast h1, .testimonials h1 {
   font-family: "Volkhov", serif;
   font-size: 50px;
@@ -105,6 +109,11 @@
   width: 100%;
 }
 
+.test-right:hover {
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
 .test-right-abs {
   position: absolute;
   background: rgba(0, 0, 0, 0.01);
@@ -115,6 +124,11 @@
   height: 232px;
   width: 80%;
   border-radius: 10px;
+}
+
+.test-right-abs:hover {
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
 .sub {
@@ -142,12 +156,14 @@
   border: none;
   width: 40%;
   padding-left: 40px;
+  font-size: 16px;
 }
 
 .login-p input:focus {
   border: none;
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  -webkit-box-shadow: 0 0 5px #FF7D68;
+          box-shadow: 0 0 5px #FF7D68;
+  outline: none;
 }
 
 .login-p input:active {
@@ -299,10 +315,19 @@
   position: relative;
   width: 100% !important;
   overflow: hidden;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
   border-bottom-left-radius: 24px;
   border-bottom-right-radius: 24px;
+  -webkit-transition: .3s;
+  transition: .3s;
   -webkit-box-shadow: 0 20px 20px rgba(0, 0, 0, 0.05);
           box-shadow: 0 20px 20px rgba(0, 0, 0, 0.05);
+}
+
+.card1:hover {
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
 }
 
 .card-body1 {
@@ -400,6 +425,10 @@
     letter-spacing: 0em;
     text-align: center;
     color: #5E6282;
+  }
+  .card1 {
+    border-top-left-radius: 42px;
+    border-top-right-radius: 42px;
   }
 }
 
