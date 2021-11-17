@@ -87,8 +87,9 @@
 .p-a1 {
   position: absolute;
   z-index: -1;
-  top: -80px;
-  right: -30px;
+  width: 96%;
+  top: -40px;
+  right: 10px !important;
 }
 
 .ml-40 {
@@ -101,17 +102,18 @@
   margin-left: 40px;
   background: white;
   border-radius: 10px;
+  width: 100%;
 }
 
 .test-right-abs {
   position: absolute;
   background: rgba(0, 0, 0, 0.01);
   border: 1px solid rgba(0, 0, 0, 0.06);
-  right: 10px;
+  right: -20px;
   z-index: -1;
   bottom: -30px;
   height: 232px;
-  width: 500px;
+  width: 80%;
   border-radius: 10px;
 }
 
@@ -266,5 +268,209 @@
   letter-spacing: 0em;
   text-align: left;
   color: #5E6282;
+}
+
+.top-testing h6 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #5E6282;
+}
+
+.top-testing h1 {
+  font-family: "Volkhov", serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 65px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.card-img1 {
+  width: 100% !important;
+}
+
+.card1 {
+  position: relative;
+  width: 100% !important;
+  overflow: hidden;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+  -webkit-box-shadow: 0 20px 20px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 20px 20px rgba(0, 0, 0, 0.05);
+}
+
+.card-body1 {
+  position: absolute;
+  height: 130px;
+  bottom: 0;
+  left: 0;
+  width: 105% !important;
+  background: white;
+}
+
+.card-body1 p {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.card-body1 img {
+  margin-right: 15px;
+}
+
+.card {
+  margin-top: 50px;
+  width: 92% !important;
+  padding: 43px 0;
+  border: none !important;
+  border-radius: 36px;
+}
+
+.card p {
+  font-family: "Poppins", sans-serif;
+  width: 85% !important;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #5E6282;
+}
+
+.card-img-top {
+  width: 40%;
+}
+
+.card-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.card2 {
+  -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04) !important;
+          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04) !important;
+  position: relative;
+  background: white;
+}
+
+.card-abs-img {
+  position: absolute;
+  bottom: -40px;
+  left: -40px;
+  z-index: -1;
+}
+
+.top1 {
+  width: 55%;
+}
+
+.image-c {
+  width: 100%;
+  height: 120px;
+}
+
+@media screen and (max-width: 1150px) {
+  .sub {
+    padding: 50px;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 60px;
+  }
+  .sub h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #5E6282;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .login-p input {
+    height: 68px;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    padding-left: 40px;
+  }
+  .login-p input:focus {
+    border: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .login-p input:active {
+    border: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .login-p button {
+    margin-top: 30px;
+    width: 150px;
+    margin-left: 0 !important;
+  }
+  .footer {
+    padding-top: 100px !important;
+    margin-top: 100px inherit !important;
+  }
+  .footer h1, .footer p, .footer a, .footer h4 {
+    text-align: center !important;
+  }
+  .sub {
+    padding: 50px;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 60px;
+  }
+  .sub h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #5E6282;
+  }
+  .top-testing h6 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .top-testing h1 {
+    font-size: 40px;
+    line-height: 55px;
+  }
+  .easyFast h6 {
+    font-size: 14px !important;
+    line-height: 20px !important;
+  }
+  .easyFast h1 {
+    font-size: 36px !important;
+    line-height: 46px !important;
+  }
+  .testimonials h6 h6 {
+    font-size: 14px !important;
+    line-height: 20px !important;
+  }
+  .testimonials h1 {
+    font-size: 36px !important;
+    line-height: 46px !important;
+  }
 }
 /*# sourceMappingURL=style.css.map */
