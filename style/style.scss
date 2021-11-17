@@ -1,0 +1,117 @@
+@import 'var';
+* { padding: 0; margin: 0; box-sizing: border-box;}
+// body {
+//     background: red;
+// }
+.h11 {
+    font-family: $fontFamily2;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: 65px;
+letter-spacing: 0em;
+text-align: left;
+}
+.h61 {
+    font-family: $fontFamily;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: left;
+color: #5E6282;
+margin-bottom: 4px !important;
+}
+.p1 {
+    font-family: $fontFamily;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: #5E6282;
+}
+.easyFast {
+    h6 {
+       @extend .h61;
+    }
+    h1 {
+@extend .h11;
+}
+    p {
+        @extend .p1;
+
+    }
+}
+.testimonials {
+    h6 {
+        font-family: $fontFamily;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-transform: uppercase;
+        text-align: left;
+        color: #5E6282;
+        margin-bottom: 4px !important;
+    }
+        h5 {
+            @extend .h61;
+            text-transform: capitalize !important; 
+        }
+    h1 {
+@extend .h11;
+    }
+    p {
+        
+        @extend .p1;
+        line-height: 32px !important;
+        font-weight: 500 !important;
+    }
+}
+.mt-40 {
+    margin-top: 40px;
+}
+.img1 {
+    width: 370px;
+    // height: 400px;   
+}
+.p-r {
+    position: relative;
+    padding: 50px;
+   
+}
+    .p-a {
+        position: absolute;
+        bottom: 90px;
+        right: -70px;
+    }
+.p-a1 {
+    position: absolute;
+  z-index: -1;
+  top: -80px;
+  right: -30px;
+}
+.ml-40 {
+    margin-left: 40px;
+}
+.test-right {
+    box-shadow: -20px 20px 20px rgba(0,0,0,.04);
+    margin-left: 40px;
+    background: white;
+    border-radius: 10px;
+}
+.test-right-abs {
+    position: absolute;
+    background:rgba(0,0,0,.01);
+    border:1px solid rgba(0,0,0,.06);
+    right: 10px;
+    z-index: -1;
+    bottom: -30px;
+    height: 232px;
+    width: 500px;
+    border-radius: 10px;
+}
